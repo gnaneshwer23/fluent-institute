@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "dev": "npx --yes serve . -p 3000",
-    "build": "node -e \"console.log('Static site — no build step')\""
+    "build": "node -e \"console.log('Static landing page — no build step')\""
   }
 }

@@ -1,391 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fluent Institute — School Transformation & Learning Intelligence Platform</title>
-<meta name="description" content="Fluent Institute transforms schools through teacher excellence, student academic fluency, parent partnership, and AI-powered school intelligence.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluent Institute — School Transformation & Learning Intelligence</title>
+  <meta name="description" content="Fluent Institute helps schools and families build academic fluency through teacher development, personalised learning, parent partnership, and AI-powered school intelligence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- partial 1 -->
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
-<nav id="mainNav">
-  <a href="#hero" class="nav-logo">Fl<span>u</span>ent</a>
-  <div class="nav-links">
-    <a href="#problem">The Problem</a>
-    <a href="#pillars">Pillars</a>
-    <a href="#how">How It Works</a>
-    <a href="#platform">Platform</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#roadmap">Roadmap</a>
-    <a href="#investor">Investors</a>
-    <a href="#contact" class="nav-cta">Book a Demo</a>
-  </div>
-  <div class="nav-menu" id="navMenu"><span></span><span></span><span></span></div>
-</nav>
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
-  <div class="hero-eyebrow">School Transformation & Learning Intelligence Platform</div>
-  <h1 class="hero-title">We do not teach subjects.<br>We <em>architect</em><br><strong>scholars.</strong></h1>
-  <p class="hero-sub">Fluent Institute transforms schools through exceptional teacher development, personalised student learning, intelligent parent partnership, and AI-powered school intelligence — all in one platform.</p>
-  <div class="hero-actions">
-    <a href="#platform" class="btn-primary">Explore the Platform</a>
-    <a href="#contact" class="btn-gold">Book a School Demo</a>
-    <a href="#pricing" class="btn-outline">View Pricing</a>
-  </div>
-  <div class="hero-stats">
-    <div class="stat"><div class="stat-n">50<span>%+</span></div><div class="stat-l">Admin Reduced</div></div>
-    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Intelligence Layers</div></div>
-    <div class="stat"><div class="stat-n">15</div><div class="stat-l">Workflow Steps</div></div>
-    <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Learning Journey</div></div>
-  </div>
-  <div class="hero-scroll"><div class="scroll-line"></div>Scroll to explore</div>
-</section>
+  <nav id="mainNav">
+    <a href="#hero" class="nav-logo">Fl<span>u</span>ent</a>
+    <div class="nav-links">
+      <a href="#about" data-nav>About</a>
+      <a href="#services" data-nav>Services</a>
+      <a href="#platform" data-nav>Platform</a>
+      <a href="#contact" class="nav-cta" data-nav>Contact</a>
+    </div>
+    <button type="button" class="nav-menu" id="navMenu" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-<section id="problem">
-  <div class="section-label reveal">The Five Interconnected Challenges</div>
-  <h2 class="section-title reveal reveal-delay-1">Every school faces this.<br>No platform has solved it — until now.</h2>
-  <div class="problem-grid reveal reveal-delay-2">
-    <div class="problem-card"><div class="prob-icon" style="background:rgba(13,110,110,.12)">🎓</div><div class="prob-who" style="color:var(--teal2)">Students</div><div class="prob-title">Grades without Understanding</div><ul class="prob-items"><li>Low confidence despite good grades</li><li>Memorisation without comprehension</li><li>Poor communication skills</li><li>Limited critical thinking</li><li>No personalised support</li></ul></div>
-    <div class="problem-card"><div class="prob-icon" style="background:rgba(201,150,58,.12)">📚</div><div class="prob-who" style="color:var(--gold2)">Teachers</div><div class="prob-title">Buried in Administration</div><ul class="prob-items"><li>Excessive marking and reporting</li><li>Limited CPD access</li><li>Struggling students missed</li><li>Burnout and retention crisis</li><li>No early-warning system</li></ul></div>
-    <div class="problem-card"><div class="prob-icon" style="background:rgba(196,92,92,.12)">👨‍👩‍👧</div><div class="prob-who" style="color:#E88080">Parents</div><div class="prob-title">Reports, Not Intelligence</div><ul class="prob-items"><li>Grades but not understanding</li><li>Can't support at home</li><li>Weak school communication</li><li>No real-time visibility</li></ul></div>
-    <div class="problem-card"><div class="prob-icon" style="background:rgba(107,94,168,.12)">🏛️</div><div class="prob-who" style="color:#9B8FD8">Leadership</div><div class="prob-title">Data Without Intelligence</div><ul class="prob-items"><li>Reactive decisions only</li><li>Interventions too late</li><li>Limited teacher visibility</li><li>No measurable improvement</li></ul></div>
-    <div class="problem-card"><div class="prob-icon" style="background:rgba(58,158,122,.12)">⚙️</div><div class="prob-who" style="color:#5DCCA3">System</div><div class="prob-title">Exams Measure the Wrong Things</div><ul class="prob-items"><li>Confidence unmeasured</li><li>Communication ignored</li><li>Critical thinking absent</li><li>Academic fluency invisible</li><li>Students pass, can't explain</li></ul></div>
-  </div>
-</section>
-
-<section id="pillars">
-  <div class="section-label reveal">The Four Pillars of Fluent</div>
-  <h2 class="section-title reveal reveal-delay-1">One platform.<br>Four transformations.</h2>
-  <p class="section-body reveal reveal-delay-2">Every stakeholder served. Every outcome measurable. Every interaction intelligent.</p>
-  <div class="pillar-grid" style="margin-top:3.5rem">
-    <div class="pillar-card p1 reveal">
-      <div class="pillar-num">1</div>
-      <div class="pillar-icon-wrap">🎯</div>
-      <div class="pillar-tag">Pillar One</div>
-      <div class="pillar-title">Teacher Excellence</div>
-      <p class="pillar-desc">Teacher development is the highest-leverage investment a school can make. Fluent gives every teacher an AI assistant, a professional development pathway, and the tools to spend less time on administration and more time on what they do best — teaching.</p>
-      <ul class="pillar-items">
-        <li>CPD Programmes & Teaching Excellence Framework</li>
-        <li>AI-generated lesson plans in under 60 seconds</li>
-        <li>Automated marking with one-click teacher approval</li>
-        <li>Teacher Growth Passport & wellbeing monitoring</li>
-        <li>Workload management and burnout prevention</li>
-      </ul>
-      <div class="pillar-outcome">Outcome — Better teachers create better learning</div>
-    </div>
-    <div class="pillar-card p2 reveal reveal-delay-1">
-      <div class="pillar-num">2</div>
-      <div class="pillar-icon-wrap">✦</div>
-      <div class="pillar-tag">Pillar Two</div>
-      <div class="pillar-title">Student Academic Fluency</div>
-      <p class="pillar-desc">Academic Fluency is the ability to understand, explain, discuss, question, and apply knowledge confidently. Fluent develops fluency across Science, Mathematics, and English — measuring Accuracy, Fluency, Understanding, and Confidence in every scholar.</p>
-      <ul class="pillar-items">
-        <li>Academic Fluency Score (AFS) — the single metric that matters</li>
-        <li>Personalised learning paths — Support, Standard, Advanced</li>
-        <li>AI study assistant available 24/7 — hints, never answers</li>
-        <li>Mastery Ledger — a living map of what each scholar knows</li>
-        <li>Digital portfolio growing from day one through graduation</li>
-      </ul>
-      <div class="pillar-outcome">Outcome — Students become scholars, not passive learners</div>
-    </div>
-    <div class="pillar-card p3 reveal">
-      <div class="pillar-num">3</div>
-      <div class="pillar-icon-wrap">🤝</div>
-      <div class="pillar-tag">Pillar Three</div>
-      <div class="pillar-title">Parent Partnership</div>
-      <p class="pillar-desc">Parents do not receive reports. They receive intelligence. Ask our AI why your child is struggling in Science and get a specific, causal answer — not a grade table. Then get three things you can do at home tonight to help.</p>
-      <ul class="pillar-items">
-        <li>Weekly updates, monthly summaries, quarterly reviews</li>
-        <li>Parent Intelligence Dashboard — real-time visibility</li>
-        <li>AI Parent Assistant — conversational, causal, plain language</li>
-        <li>Home Learning Guidance — specific, actionable, subject-relevant</li>
-        <li>Direct messaging with British faculty and local teachers</li>
-      </ul>
-      <div class="pillar-outcome">Outcome — Parents gain visibility, confidence, and partnership</div>
-    </div>
-    <div class="pillar-card p4 reveal reveal-delay-1">
-      <div class="pillar-num">4</div>
-      <div class="pillar-icon-wrap">📊</div>
-      <div class="pillar-tag">Pillar Four</div>
-      <div class="pillar-title">School Intelligence</div>
-      <p class="pillar-desc">School leaders move from reactive administrators to intelligence-led strategists. Real-time dashboards replace static reports. Predictive risk models replace gut instinct. Measurable improvement targets replace aspirational goals.</p>
-      <ul class="pillar-items">
-        <li>School Performance Dashboard with real-time intelligence</li>
-        <li>Teacher development analytics and retention risk monitoring</li>
-        <li>Student risk detection — 14+ days before crisis emerges</li>
-        <li>Attendance intelligence and engagement trend analysis</li>
-        <li>School improvement tracking with measurable outcomes</li>
-      </ul>
-      <div class="pillar-outcome">Outcome — Data-driven decisions that transform school performance</div>
-    </div>
-  </div>
-</section>
-
-<section id="how">
-  <div class="section-label reveal">End-to-End Workflow</div>
-  <h2 class="section-title reveal reveal-delay-1">From onboarding to graduation.<br>Every step intelligent.</h2>
-  <p class="section-body reveal reveal-delay-2">Fifteen steps. One continuous learning loop. Zero manual administration left on the table.</p>
-  <div class="flow-steps" style="margin-top:3rem">
-    <div class="flow-step reveal"><div class="step-num">01</div><div><div class="step-title">School Onboarding</div><p class="step-desc">Upload your school structure, curriculum, timetable, and student list. AI automatically creates all profiles, dashboards, and subject structures. Ready on day one.</p><div class="step-tags"><span class="step-tag tag-t">Admin</span><span class="step-tag tag-g">Automation</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">02</div><div><div class="step-title">AI Lesson Planning</div><p class="step-desc">Teacher enters topic and objective. AI generates a full lesson plan, resources, and three differentiated versions — Support, Standard, Advanced — in under 60 seconds.</p><div class="step-tags"><span class="step-tag tag-t">Teacher Tools</span><span class="step-tag tag-g">Differentiation</span><span class="step-tag tag-p">60 Seconds</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">03</div><div><div class="step-title">Live Lesson & Real-Time Engagement</div><p class="step-desc">Students join live. AI monitors participation, response patterns, and confusion signals. Teacher sees engaged / confused / inactive split in real time — and knows exactly who needs support.</p><div class="step-tags"><span class="step-tag tag-t">Real-Time</span><span class="step-tag tag-r">Engagement</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">04</div><div><div class="step-title">End-of-Lesson Reflection</div><p class="step-desc">Students complete "5 Things I Learned". AI evaluates understanding scores, detects misconceptions, and identifies knowledge gaps per student — updating the knowledge graph immediately.</p><div class="step-tags"><span class="step-tag tag-t">Metacognition</span><span class="step-tag tag-p">Knowledge Graph</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">05</div><div><div class="step-title">Personalised Homework Generation</div><p class="step-desc">AI creates individualised homework for every student immediately after class. The AI tutor provides hints, examples, and guided questions — never direct answers. Independent thinking protected.</p><div class="step-tags"><span class="step-tag tag-g">Personalisation</span><span class="step-tag tag-m">AI Tutor</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">07</div><div><div class="step-title">AI Grading & Assessment</div><p class="step-desc">Objective questions marked automatically at 100% accuracy. Subjective work evaluated on logic, structure, and understanding. Teacher reviews and approves — 30 seconds instead of 4 hours.</p><div class="step-tags"><span class="step-tag tag-t">Auto-Marking</span><span class="step-tag tag-g">60–80% Time Saved</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">09</div><div><div class="step-title">Digital Portfolio — Lifelong Record</div><p class="step-desc">Every activity, grade, reflection, skill, and achievement automatically added to the student's living digital portfolio. By Year 11 or 13, a complete evidence-based growth record from day one.</p><div class="step-tags"><span class="step-tag tag-p">Portfolio</span><span class="step-tag tag-m">Skills Tracking</span><span class="step-tag tag-g">Lifelong</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">11</div><div><div class="step-title">Early Intervention System</div><p class="step-desc">AI identifies at-risk students before problems become crises. Declining grades + falling homework + attendance drop triggers a structured intervention plan — pre-populated, ready to act on.</p><div class="step-tags"><span class="step-tag tag-r">Risk Detection</span><span class="step-tag tag-t">Proactive</span><span class="step-tag tag-g">14+ Days Early</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">12</div><div><div class="step-title">Mental Health & Wellbeing Intelligence</div><p class="step-desc">Wellbeing check-ins plus passive signal collection — writing tone, submission timing, reflection depth — detect what students won't say. Safeguarding alerts delivered before escalation.</p><div class="step-tags"><span class="step-tag tag-r">Wellbeing</span><span class="step-tag tag-p">Safeguarding</span><span class="step-tag tag-t">Passive Signals</span></div></div></div>
-    <div class="flow-step reveal"><div class="step-num">15</div><div><div class="step-title">School Leadership Dashboard</div><p class="step-desc">Headteachers see everything in real time — teacher workload and retention risk, student cohort wellbeing, performance trends, risk forecasting. Intelligence, not reports.</p><div class="step-tags"><span class="step-tag tag-p">Leadership</span><span class="step-tag tag-t">Real-Time</span><span class="step-tag tag-g">Strategic</span></div></div></div>
-  </div>
-</section>
-<section id="ai-section">
-  <div class="section-label reveal">The Role of AI</div>
-  <h2 class="section-title reveal reveal-delay-1">Assist. Augment. Accelerate.</h2>
-  <p class="section-body reveal reveal-delay-2">AI exists to support people — not replace them. Every AI capability in Fluent has one purpose: to give humans more time, better information, and earlier opportunity to act.</p>
-  <div class="ai-grid reveal reveal-delay-3">
-    <div class="ai-card"><div class="ai-who" style="color:var(--teal2)">🎯  For Teachers</div><div class="ai-card-title">AI Teaching Assistant</div><ul class="ai-items"><li>Lesson plan generation in 60 seconds</li><li>Automated marking & bulk approval</li><li>Progress analysis per student</li><li>Parent report drafting</li><li>Intervention recommendations</li><li>Workload monitoring & alerts</li></ul></div>
-    <div class="ai-card"><div class="ai-who" style="color:var(--gold2)">✦  For Students</div><div class="ai-card-title">AI Study Assistant</div><ul class="ai-items"><li>Personalised revision pathways</li><li>Concept scaffolding — hints, not answers</li><li>Academic fluency practice</li><li>Knowledge gap detection</li><li>Curriculum-grounded answers</li><li>24/7 availability, zero judgement</li></ul></div>
-    <div class="ai-card"><div class="ai-who" style="color:#E88080">🤝  For Parents</div><div class="ai-card-title">AI Parent Intelligence</div><ul class="ai-items"><li>Plain language progress explanations</li><li>Causal insight — why, not just what</li><li>Home learning guidance tonight</li><li>Wellbeing trend visibility</li><li>Communication support</li><li>Conversational — ask any question</li></ul></div>
-    <div class="ai-card"><div class="ai-who" style="color:#9B8FD8">🏛️  For School Leaders</div><div class="ai-card-title">AI School Intelligence</div><ul class="ai-items"><li>Real-time trend analysis</li><li>Predictive performance insights</li><li>Teacher retention risk monitoring</li><li>Student cohort risk forecasting</li><li>Strategic planning intelligence</li><li>School improvement tracking</li></ul></div>
-  </div>
-  <p class="ai-tagline reveal">"AI is not the product. <strong>Teachers are not replaced.</strong> Technology does not lead learning."</p>
-</section>
-
-<section id="platform">
-  <div class="section-label reveal">The Platform</div>
-  <h2 class="section-title reveal reveal-delay-1">Four dashboards.<br>One intelligent platform.</h2>
-  <p class="section-body reveal reveal-delay-2">Every stakeholder has their own dedicated interface — built specifically for how they think, what they need, and the decisions they make every day.</p>
-  <div class="dashboard-grid">
-    <a href="https://fluent-woad.vercel.app/student" class="dash-card dash-teal reveal" target="_blank" rel="noopener">
-      <div class="dash-icon">🎓</div>
-      <div class="dash-label">For Scholars</div>
-      <div class="dash-title">Scholar Studio</div>
-      <p class="dash-desc">The scholar's complete learning environment — from AI-powered revision to the Mastery Ledger, Confidence Studio, and the living digital portfolio that grows from day one.</p>
-      <ul class="dash-features">
-        <li>Home Dashboard with Academic Fluency Score (AFS)</li>
-        <li>AI Tutor — RAG-grounded, curriculum-accurate, Socratic</li>
-        <li>Mastery Ledger — visual knowledge map per subject</li>
-        <li>Confidence Studio — speaking practice and fluency tracking</li>
-        <li>Digital Portfolio — automatic, lifelong, skills-mapped</li>
-        <li>Global Forum — peer learning and faculty moderation</li>
-      </ul>
-      <div class="dash-btn">Enter Scholar Studio <span class="dash-arrow">→</span></div>
-    </a>
-    <a href="https://fluent-woad.vercel.app/parent" class="dash-card dash-gold reveal reveal-delay-1" target="_blank" rel="noopener">
-      <div class="dash-icon">👨‍👩‍👧</div>
-      <div class="dash-label">For Guardians</div>
-      <div class="dash-title">Guardian Portal</div>
-      <p class="dash-desc">Continuous, real-time visibility into your child's learning journey. Ask the AI any question about their progress and receive a specific, causal, actionable answer in plain language.</p>
-      <ul class="dash-features">
-        <li>Real-time AFS and wellbeing dashboard</li>
-        <li>AI Parent Assistant — ask anything, get real answers</li>
-        <li>Urgency-tiered alert system — academic, wellbeing, attendance</li>
-        <li>Weekly, monthly, and quarterly structured reports</li>
-        <li>Direct faculty messaging and 1:1 session booking</li>
-        <li>Home learning guidance — specific and actionable</li>
-      </ul>
-      <div class="dash-btn">Enter Guardian Portal <span class="dash-arrow">→</span></div>
-    </a>
-    <a href="https://fluent-woad.vercel.app/teacher" class="dash-card dash-rose reveal" target="_blank" rel="noopener">
-      <div class="dash-icon">📚</div>
-      <div class="dash-label">For Teachers</div>
-      <div class="dash-title">Teacher Dashboard & CPD Hub</div>
-      <p class="dash-desc">Your AI teaching assistant, CPD growth tracker, and class intelligence system — all in one place. Spend your time teaching, not administering.</p>
-      <ul class="dash-features">
-        <li>AI Lesson Planner — full plan in 60 seconds</li>
-        <li>Real-time class engagement monitoring</li>
-        <li>Bulk marking approval — 30 minutes, not 4 hours</li>
-        <li>Student concern briefs — who needs support today</li>
-        <li>Teacher Growth Passport and CPD tracker</li>
-        <li>Wellbeing check-in and workload visibility</li>
-      </ul>
-      <div class="dash-btn">Enter Teacher Dashboard <span class="dash-arrow">→</span></div>
-    </a>
-    <a href="https://fluent-woad.vercel.app/school" class="dash-card dash-purple reveal reveal-delay-1" target="_blank" rel="noopener">
-      <div class="dash-icon">🏛️</div>
-      <div class="dash-label">For School Leaders</div>
-      <div class="dash-title">School Intelligence Dashboard</div>
-      <p class="dash-desc">Replace lagging reports with real-time institutional intelligence. Know what is happening across your school — teachers, students, parents — before it becomes a problem.</p>
-      <ul class="dash-features">
-        <li>School performance trends and subject analysis</li>
-        <li>Teacher wellbeing, workload, and retention risk</li>
-        <li>Student cohort risk monitoring — 14+ days early</li>
-        <li>Attendance intelligence and punctuality patterns</li>
-        <li>Parent engagement metrics and communication quality</li>
-        <li>School improvement tracking with measurable targets</li>
-      </ul>
-      <div class="dash-btn">Enter Leadership Dashboard <span class="dash-arrow">→</span></div>
-    </a>
-  </div>
-</section>
-
-<section id="pricing">
-  <div class="section-label reveal">Pricing</div>
-  <h2 class="section-title reveal reveal-delay-1">Institutional partnerships.<br>Family subscriptions.</h2>
-  <p class="section-body reveal reveal-delay-2">Fluent operates a dual revenue model — designed to serve both schools and families simultaneously, at every investment level.</p>
-  <p class="pricing-note reveal">All prices in Indian Rupees. B2B pricing in ₹/student/month (annual contract). B2C pricing per scholar/month.</p>
-  <div class="pricing-tabs reveal">
-    <button class="pricing-tab active" onclick="switchTab('b2b', this)">School Partnerships (B2B)</button>
-    <button class="pricing-tab" onclick="switchTab('b2c', this)">Family Programmes (B2C)</button>
-  </div>
-  <div id="b2b-panel" class="pricing-panel b2b-panel active">
-    <div class="price-card">
-      <div class="price-name">Pilot Programme</div>
-      <div class="price-amount">₹415 <span>/student/month</span></div>
-      <div class="price-period">8-week pilot · 50% of annual rate · Converts on outcomes</div>
-      <p class="price-desc">Prove the model. One cohort, 8 weeks, full platform access. If AFS does not improve by 15+ points, no obligation to continue.</p>
-      <ul class="price-features"><li>Full platform access for pilot cohort</li><li>British faculty sessions (2x/week)</li><li>Teacher CPD workshop</li><li>AFS outcomes report at close</li><li>Guardian Portal for pilot families</li></ul>
-      <a href="#contact" class="btn-outline">Apply for Pilot</a>
-    </div>
-    <div class="price-card featured">
-      <div class="price-badge">Most Popular</div>
-      <div class="price-name">School Partnership</div>
-      <div class="price-amount">₹830 <span>/student/month</span></div>
-      <div class="price-period">Annual contract · Minimum 100 students · ₹9.96 lakh/year</div>
-      <p class="price-desc">The full Fluent Institute school transformation programme — every pillar, every feature, every intelligence layer, for your entire institution.</p>
-      <ul class="price-features"><li>Full platform — Scholar Studio, Guardian Portal, Dashboards</li><li>British faculty sessions embedded in timetable</li><li>Complete Teacher CPD programme</li><li>School Intelligence Dashboard</li><li>AI lesson planning, marking, reporting</li><li>Parent engagement platform with AI assistant</li><li>Dedicated school success manager</li></ul>
-      <a href="#contact" class="btn-gold">Book a School Demo</a>
-    </div>
-  </div>
-  <div id="b2c-panel" class="pricing-panel b2c-panel">
-    <div class="price-card">
-      <div class="price-name">Guardian Protocol</div>
-      <div class="price-amount">₹8,500 <span>/month</span></div>
-      <div class="price-period">AI-supported independent learning</div>
-      <p class="price-desc">Full AI scaffolding, curriculum vault, and parent dashboard. For families wanting intelligent independent revision support.</p>
-      <ul class="price-features"><li>Scholar Studio full access</li><li>AI Tutor — RAG curriculum-grounded</li><li>Guardian Portal and weekly updates</li><li>Mastery Ledger and AFS tracking</li><li>Home learning guidance</li></ul>
-      <a href="#contact" class="btn-outline">Get Started</a>
-    </div>
-    <div class="price-card featured">
-      <div class="price-badge">Flagship</div>
-      <div class="price-name">Mastery Cohort</div>
-      <div class="price-amount">₹14,500 <span>/month</span></div>
-      <div class="price-period">Live British faculty · Cohorts capped at 20 scholars</div>
-      <p class="price-desc">Direct instruction from British faculty, AI grounding, Synthesis Labs, and full parent partnership. The complete Fluent scholar experience.</p>
-      <ul class="price-features"><li>Everything in Guardian Protocol</li><li>Live British faculty sessions (2x/week)</li><li>Synthesis Labs — applied learning workshops</li><li>Monthly Guardian progress report</li><li>Small cohort (max 20 scholars)</li><li>Priority faculty messaging</li></ul>
-      <a href="#contact" class="btn-gold">Enrol Your Scholar</a>
-    </div>
-    <div class="price-card">
-      <div class="price-name">Synthesis Elite</div>
-      <div class="price-amount">₹30,000 <span>/month</span></div>
-      <div class="price-period">Premium personalised · University & exam focused</div>
-      <p class="price-desc">Highly personalised for scholars targeting Oxbridge, IIT, NEET, or international university admissions. A dedicated academic coach.</p>
-      <ul class="price-features"><li>Everything in Mastery Cohort</li><li>1:1 sessions with British faculty</li><li>Personal academic coach</li><li>Custom learning pathway</li><li>University application support</li><li>Quarterly strategy sessions</li></ul>
-      <a href="#contact" class="btn-outline">Apply for Elite</a>
-    </div>
-  </div>
-</section>
-
-<section id="roadmap">
-  <div class="section-label reveal">Product Roadmap</div>
-  <h2 class="section-title reveal reveal-delay-1">Built in phases.<br>Each one proven before the next begins.</h2>
-  <div class="roadmap-timeline">
-    <div class="roadmap-phase rp1 reveal">
-      <div class="rp-phase">Phase 1 — Now to Q4 2026</div>
-      <div class="rp-period">Academic Fluency Platform</div>
-      <div class="rp-title">The Foundation</div>
-      <ul class="rp-items"><li>Scholar Studio — 9 interfaces live</li><li>Guardian Portal — 10 sections live</li><li>AI RAG tutor (Gemini, CBSE/ICSE)</li><li>Lesson plan generator</li><li>Auto-marking engine</li><li>Academic Fluency Score (AFS)</li><li>First school pilot — Bengaluru</li><li>Outcomes data generation</li></ul>
-      <div class="rp-milestone">Target: First school contract Q3 2026</div>
-    </div>
-    <div class="roadmap-phase rp2 reveal reveal-delay-1">
-      <div class="rp-phase">Phase 2 — Q1 to Q2 2027</div>
-      <div class="rp-period">School Transformation Platform</div>
-      <div class="rp-title">The Intelligence</div>
-      <ul class="rp-items"><li>Student knowledge graph (Neo4j)</li><li>Triangulated signal engine</li><li>Passive behavioural signal collection</li><li>Agentic intervention loop (LangGraph)</li><li>Parent conversational AI</li><li>Teacher wellbeing module</li><li>5 school contracts</li><li>Seed round — £500K–£1M</li></ul>
-      <div class="rp-milestone">Target: 500+ scholars, 5 schools Q2 2027</div>
-    </div>
-    <div class="roadmap-phase rp3 reveal reveal-delay-2">
-      <div class="rp-phase">Phase 3 — Q3 2027 to Q4 2028</div>
-      <div class="rp-period">Learning Intelligence Ecosystem</div>
-      <div class="rp-title">The Digital Twin</div>
-      <ul class="rp-items"><li>Full AI Education Brain</li><li>W3C Verifiable Credential layer</li><li>Portable student credential wallet</li><li>All CBSE/ICSE subjects covered</li><li>EU pilot institution (UK/Germany)</li><li>25+ school contracts</li><li>5,000+ scholars on platform</li><li>Series A initiated</li></ul>
-      <div class="rp-milestone">Target: The Digital Twin of Human Learning</div>
-    </div>
-  </div>
-</section>
-<section id="investor">
-  <div class="section-label reveal">For Investors</div>
-  <h2 class="section-title reveal reveal-delay-1">A category of one.<br>Seed round open.</h2>
-  <div class="investor-grid">
-    <div class="investor-metrics reveal">
-      <div class="inv-metric"><div class="inv-num">$103<span>B</span></div><div class="inv-label">India K-12 Private Market (2025)</div></div>
-      <div class="inv-metric"><div class="inv-num">$276<span>B</span></div><div class="inv-label">Projected 2034 at 13% CAGR</div></div>
-      <div class="inv-metric"><div class="inv-num">400<span>K</span></div><div class="inv-label">Affordable Private Schools in India</div></div>
-      <div class="inv-metric"><div class="inv-num">₹4.5<span>cr</span></div><div class="inv-label">Projected Phase 2 Annual ARR</div></div>
-      <div class="inv-metric"><div class="inv-num">70<span>%</span></div><div class="inv-label">Gross Margin at Phase 2 Scale</div></div>
-      <div class="inv-metric"><div class="inv-num">20<span>:1</span></div><div class="inv-label">B2B LTV:CAC Ratio</div></div>
-    </div>
-    <div class="investor-text reveal reveal-delay-1">
-      <div class="inv-block"><div class="inv-block-title">The Category Opportunity</div><div class="inv-block-body">No platform occupies the intersection of live British faculty + subject academic fluency + school-integrated AI intelligence. Fluent is a category of one — not competing with LEAD, Extramarks, or PlanetSpark, but solving a problem they are structurally unable to solve.</div></div>
-      <div class="inv-block"><div class="inv-block-title">The Structural Moat</div><div class="inv-block-body">Every day the platform runs, the student knowledge graph deepens. After 18 months of student data, the graph becomes impossible to replicate overnight. First-mover advantage compounds. Network effects protect. Credential portability creates lifetime retention.</div></div>
-      <div class="inv-block"><div class="inv-block-title">The Founding Team</div><div class="inv-block-body">Dr. Gnaneshwer Jadav (CEO) — PhD Immunology, South East London, product leader. Akhil (CTO) — full-stack engineering. William Hardman — practising UK teacher, CPD design. The British-Indian dual context is Fluent's unfair advantage.</div></div>
-      <div class="inv-block"><div class="inv-block-title">The Ask</div><div class="inv-block-body">Seed round: £500K–£1M. Use of funds: 2 additional engineers, 1 school sales executive, regulatory compliance, and 6-month runway to 5 school contracts and £35–40 lakh MRR. Series A targeted Q4 2028 with 25+ schools and 5,000+ scholars.</div></div>
-    </div>
-  </div>
-  <div class="investor-cta reveal">
-    <div class="section-label" style="justify-content:center;display:flex">Interested in Fluent?</div>
-    <p>We are building the most intelligent school transformation platform in the world — starting in India, expanding to Europe. If you are an investor aligned with education, AI, or emerging market growth, we would welcome a conversation.</p>
-    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
-      <a href="mailto:info@fluent.academy" class="btn-primary">Request Investor Deck</a>
-      <a href="mailto:info@fluent.academy" class="btn-outline">Schedule a Call</a>
-    </div>
-  </div>
-</section>
-<section id="belief">
-  <div class="section-label" style="display:block;text-align:center;margin-bottom:.8rem">Our Belief</div>
-  <p class="belief-quote">Education should not merely produce students who can <strong>pass examinations</strong>. It should produce individuals who can think critically, communicate clearly, solve problems confidently, and contribute meaningfully to society.</p>
-  <div class="belief-tagline">That is why Fluent exists.</div>
-  <p class="belief-sub">We do not teach subjects. We architect scholars.</p>
-</section>
-<section id="contact">
-  <div class="section-label reveal">Get in Touch</div>
-  <h2 class="section-title reveal reveal-delay-1" style="max-width:20ch">Book a demo.<br>Transform your school.</h2>
-  <p class="section-body reveal reveal-delay-2" style="margin-bottom:3rem">Whether you are a school principal, an aspirational parent, a prospective teacher, or an investor — we would love to speak with you.</p>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:800px" class="reveal">
-    <a href="mailto:info@fluent.academy?subject=School Demo Request" class="btn-primary" style="text-align:center;padding:1.1rem 2rem">Book a School Demo →</a>
-    <a href="mailto:info@fluent.academy?subject=Family Enrolment" class="btn-gold" style="text-align:center;padding:1.1rem 2rem">Enrol Your Scholar →</a>
-  </div>
-  <div style="height:4rem"></div>
-  <div class="contact-divider"></div>
-  <div class="contact-grid">
-    <div class="contact-brand">
-      <a href="#hero" class="nav-logo">Fl<span>u</span>ent</a>
-      <p class="contact-desc">School Transformation & Learning Intelligence Platform. Building better teachers, developing confident scholars, and creating smarter schools — from London to Bengaluru.</p>
-    </div>
-    <div class="contact-links">
-      <h4>Platform</h4>
-      <ul>
-        <li><a href="#platform">Scholar Studio</a></li>
-        <li><a href="#platform">Guardian Portal</a></li>
-        <li><a href="#platform">Teacher Dashboard</a></li>
-        <li><a href="#platform">School Intelligence</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-      </ul>
-    </div>
-    <div class="contact-links">
-      <h4>Contact</h4>
-      <div class="contact-info">
-        <div class="contact-info-item"><span class="contact-info-icon">✉</span>info@fluent.academy</div>
-        <div class="contact-info-item"><span class="contact-info-icon">📱</span>+44 7553 886303 (WhatsApp)</div>
-        <div class="contact-info-item"><span class="contact-info-icon">🌐</span>fluent.institute</div>
-        <div class="contact-info-item"><span class="contact-info-icon">📍</span>London, United Kingdom</div>
-        <div class="contact-info-item"><span class="contact-info-icon">📍</span>Bengaluru, India</div>
+  <header id="hero" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">School Transformation & Learning Intelligence</p>
+      <h1 class="reveal reveal-d1">We do not teach subjects.<br>We <em>architect</em> <strong>scholars.</strong></h1>
+      <p class="lead reveal reveal-d2">Fluent Institute is an education platform for schools and families — combining British-trained faculty, AI-assisted teaching, and real-time intelligence so teachers teach, students understand, and parents stay informed.</p>
+      <div class="hero-actions reveal reveal-d3">
+        <a href="#contact" class="btn btn-primary">Book a Demo</a>
+        <a href="#platform" class="btn btn-outline">Explore Platform</a>
+        <a href="#services" class="btn btn-ghost">Our Services</a>
+      </div>
+      <div class="hero-stats reveal reveal-d4">
+        <div class="stat"><span class="stat-n">4</span><span class="stat-l">Connected portals</span></div>
+        <div class="stat"><span class="stat-n">50<span class="accent">%+</span></span><span class="stat-l">Less admin time</span></div>
+        <div class="stat"><span class="stat-n">24/7</span><span class="stat-l">AI study support</span></div>
+        <div class="stat"><span class="stat-n">CBSE</span><span class="stat-l">ICSE aligned</span></div>
       </div>
     </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll to content">
+      <span class="scroll-line"></span>
+      <span>Scroll</span>
+    </a>
+  </header>
+
+  <section id="about" class="section section-dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="label">What is Fluent Institute?</p>
+        <h2>One partner for the whole learning journey.</h2>
+        <p class="intro">We help schools and families move beyond grades — toward real understanding, confident communication, and outcomes you can measure.</p>
+      </div>
+
+      <div class="about-split reveal">
+        <div class="about-copy">
+          <p>We combine <strong>British-trained faculty</strong>, <strong>AI-assisted teaching tools</strong>, and <strong>school-wide intelligence</strong> so every stakeholder works from the same picture of progress.</p>
+          <p>Our north star is <strong>Academic Fluency</strong> — the ability to understand, explain, question, and apply knowledge with confidence.</p>
+        </div>
+        <aside class="afs-card">
+          <p class="afs-label">Core metric</p>
+          <p class="afs-title">Academic Fluency Score</p>
+          <p class="afs-desc">One clear measure of accuracy, understanding, fluency, and confidence — tracked across Science, Maths, and English.</p>
+        </aside>
+      </div>
+
+      <div class="stakeholder-grid reveal">
+        <article class="stake-card stake-teal">
+          <span class="stake-icon" aria-hidden="true">🎯</span>
+          <h3>Teachers</h3>
+          <p>AI lesson plans, faster marking, CPD pathways, and less burnout from admin overload.</p>
+        </article>
+        <article class="stake-card stake-gold">
+          <span class="stake-icon" aria-hidden="true">✦</span>
+          <h3>Students</h3>
+          <p>Personalised learning paths, 24/7 AI tutor (hints, not answers), and a living mastery map.</p>
+        </article>
+        <article class="stake-card stake-rose">
+          <span class="stake-icon" aria-hidden="true">🤝</span>
+          <h3>Parents</h3>
+          <p>Plain-language progress insight, home guidance, and direct connection to faculty.</p>
+        </article>
+        <article class="stake-card stake-purple">
+          <span class="stake-icon" aria-hidden="true">📊</span>
+          <h3>School leaders</h3>
+          <p>Real-time dashboards, cohort risk signals, and measurable school improvement.</p>
+        </article>
+      </div>
+
+      <div class="locations reveal">
+        <span class="loc-pill">London, UK</span>
+        <span class="loc-pill">Bengaluru, India</span>
+        <span class="loc-pill">Serving Class 9–12</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="quote-band" aria-hidden="false">
+    <div class="container">
+      <blockquote class="reveal">
+        <p>“AI supports people — it does not replace teachers. Technology follows learning; learning does not follow technology.”</p>
+      </blockquote>
+    </div>
   </div>
-  <div class="contact-divider"></div>
-  <div class="contact-bottom">
-    <div class="contact-copy">© 2026 Fluent Institute. All rights reserved. · <a href="#">Privacy Policy</a> · <a href="#">Terms</a></div>
-    <div class="contact-bottom-right">We do not teach subjects. We architect scholars.</div>
-  </div>
-</section>
-<script src="main.js"></script>
+
+  <section id="services" class="section section-navy">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="label">Our Services</p>
+        <h2>End-to-end support for schools and families.</h2>
+        <p class="intro">From first conversation to daily learning and long-term improvement — one continuous programme.</p>
+      </div>
+
+      <div class="journey-grid reveal">
+        <article class="journey-step">
+          <span class="journey-num">01</span>
+          <h3>Discover & onboard</h3>
+          <p>Align on goals, configure curriculum and cohorts, and launch dashboards on day one.</p>
+        </article>
+        <article class="journey-step">
+          <span class="journey-num">02</span>
+          <h3>Teach & learn</h3>
+          <p>Live faculty sessions, AI lesson planning, differentiated homework, and syllabus-grounded study support.</p>
+        </article>
+        <article class="journey-step">
+          <span class="journey-num">03</span>
+          <h3>Assess & support</h3>
+          <p>Smart marking, parent updates, wellbeing signals, and intervention before problems escalate.</p>
+        </article>
+        <article class="journey-step">
+          <span class="journey-num">04</span>
+          <h3>Improve continuously</h3>
+          <p>Cohort analytics, teacher development, and term-over-term outcomes your leadership can trust.</p>
+        </article>
+      </div>
+
+      <div class="service-cards reveal">
+        <article class="service-card service-school">
+          <div class="service-card-head">
+            <p class="service-tag">For schools</p>
+            <span class="service-badge">B2B</span>
+          </div>
+          <h3>School Transformation Programme</h3>
+          <p>Full-platform partnership for your institution — every pillar, every portal, every intelligence layer.</p>
+          <ul>
+            <li>Scholar Studio, Guardian Portal & leadership dashboard</li>
+            <li>Teacher CPD, AI planning & bulk marking approval</li>
+            <li>British faculty embedded in your timetable</li>
+            <li>Pilot programmes or annual contracts (100+ students)</li>
+          </ul>
+          <a href="#contact" class="link">Discuss a school partnership <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="service-card service-family">
+          <div class="service-card-head">
+            <p class="service-tag">For families</p>
+            <span class="service-badge">B2C</span>
+          </div>
+          <h3>Scholar Programmes</h3>
+          <p>From guided independent revision to live mastery cohorts — with full parent visibility throughout.</p>
+          <ul>
+            <li><strong>Guardian Protocol</strong> — AI-supported learning at home</li>
+            <li><strong>Mastery Cohort</strong> — live British faculty, max 20 scholars</li>
+            <li><strong>Synthesis Elite</strong> — 1:1 coaching for competitive & university goals</li>
+          </ul>
+          <a href="#contact" class="link">Enrol your scholar <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+
+      <p class="pricing-note reveal">School and family pricing is tailored to cohort size and programme level — <a href="#contact">contact us</a> for a proposal.</p>
+    </div>
+  </section>
+
+  <section id="platform" class="section section-dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="label">The Platform</p>
+        <h2>Four portals. One connected experience.</h2>
+        <p class="intro">Every role sees what matters to them — powered by the same learning data underneath.</p>
+      </div>
+      <div class="platform-grid reveal">
+        <a href="https://fluent-woad.vercel.app/student" class="platform-card platform-teal" target="_blank" rel="noopener">
+          <span class="platform-icon">🎓</span>
+          <p class="platform-label">For scholars</p>
+          <h3>Scholar Studio</h3>
+          <p>AI tutor, mastery ledger, confidence practice, and digital portfolio.</p>
+          <span class="platform-cta">Open dashboard →</span>
+        </a>
+        <a href="https://fluent-woad.vercel.app/parent" class="platform-card platform-gold" target="_blank" rel="noopener">
+          <span class="platform-icon">👨‍👩‍👧</span>
+          <p class="platform-label">For guardians</p>
+          <h3>Guardian Portal</h3>
+          <p>Real-time progress, AI parent assistant, and home learning guidance.</p>
+          <span class="platform-cta">Open dashboard →</span>
+        </a>
+        <a href="https://fluent-woad.vercel.app/teacher" class="platform-card platform-rose" target="_blank" rel="noopener">
+          <span class="platform-icon">📚</span>
+          <p class="platform-label">For teachers</p>
+          <h3>Teacher Hub</h3>
+          <p>Lesson planner, live engagement, marking workflow, and CPD tracker.</p>
+          <span class="platform-cta">Open dashboard →</span>
+        </a>
+        <a href="https://fluent-woad.vercel.app/school" class="platform-card platform-purple" target="_blank" rel="noopener">
+          <span class="platform-icon">🏛️</span>
+          <p class="platform-label">For leaders</p>
+          <h3>School Intelligence</h3>
+          <p>Performance trends, risk forecasting, and improvement tracking.</p>
+          <span class="platform-cta">Open dashboard →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="belief section-dark">
+    <div class="container reveal">
+      <p class="belief-text">Education should produce thinkers and communicators — not just examination pass rates.</p>
+      <p class="belief-tagline">That is why Fluent exists.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-navy contact">
+    <div class="container">
+      <div class="cta-panel reveal">
+        <div class="cta-copy">
+          <p class="label">Get in Touch</p>
+          <h2>Ready to transform learning?</h2>
+          <p>Whether you lead a school, support a scholar at home, or want to partner with us — we will find the right programme for you.</p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:info@fluent.academy?subject=School%20Demo" class="btn btn-primary">Book a School Demo</a>
+          <a href="mailto:info@fluent.academy?subject=Family%20Enrolment" class="btn btn-gold">Enrol Your Scholar</a>
+        </div>
+      </div>
+
+      <footer class="footer reveal">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="nav-logo">Fl<span>u</span>ent</a>
+            <p>School Transformation & Learning Intelligence Platform.</p>
+          </div>
+          <div class="footer-links">
+            <p class="footer-heading">Explore</p>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#platform">Platform</a>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-heading">Contact</p>
+            <a href="mailto:info@fluent.academy">info@fluent.academy</a>
+            <a href="tel:+447553886303">+44 7553 886303</a>
+            <a href="https://fluent.institute" target="_blank" rel="noopener">fluent.institute</a>
+          </div>
+        </div>
+        <p class="footer-copy">© 2026 Fluent Institute · London & Bengaluru · We architect scholars.</p>
+      </footer>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
 </body>
 </html>
