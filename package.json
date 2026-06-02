@@ -1,0 +1,8 @@
+{
+  "name": "fluent-institute",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve . -p 3000",
+    "build": "node -e \"console.log('Static site — no build step')\""
+  }
+}
