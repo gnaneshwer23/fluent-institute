@@ -29,6 +29,46 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.6rem 1rem;
+  background: var(--teal);
+  color: var(--white);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--gold2);
+  outline-offset: 2px;
+}
+
+#about,
+#services,
+#platform,
+#contact,
+#hero {
+  scroll-margin-top: 5rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold2);
+  outline-offset: 3px;
+}
+
+.btn:focus:not(:focus-visible),
+.nav-menu:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .container {
   width: var(--container);
   margin-inline: auto;
